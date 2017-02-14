@@ -64,7 +64,7 @@ auth_data = {
 }
 print('?'.join((AUTH_URL, urlencode(auth_data))))
 
-token_url = 'https://oauth.vk.com/blank.html#access_token=62fe326b029a7b00051906d439c454d28c1f46ec2617d376352bfe1936ac81146d806e791917b35690142&expires_in=86400&user_id=289384'
+token_url = 'your token url'
 
 
 o = urlparse(token_url)
